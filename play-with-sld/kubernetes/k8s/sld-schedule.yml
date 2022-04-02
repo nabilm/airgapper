@@ -17,7 +17,7 @@ spec:
       subdomain: primary
       containers:
         - name: schedule
-          image: d10s0vsky/sld-schedule:latest
+          image: nabilm/sld-schedule:latest
           imagePullPolicy: Always
           resources:
             limits:
