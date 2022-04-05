@@ -17,7 +17,7 @@ spec:
       subdomain: primary
       containers:
         - name: remote-state
-          image: nabilm/sld-remote-state:1.0.2
+          image: nabilm/sld-remote-state:2.1.1
           resources:
             limits:
               memory: 600Mi

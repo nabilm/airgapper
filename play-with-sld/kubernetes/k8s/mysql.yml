@@ -14,7 +14,7 @@ spec:
         name: db
     spec:
       containers:
-      - image: mysql:latest
+      - image: mariadb:latest
         name: db
         env:
           # Use secret in real usage
