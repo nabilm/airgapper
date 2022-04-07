@@ -24,9 +24,9 @@ spec:
             value: "1"
           resources:
             limits:
-              memory: 600Mi
+              memory: 1000Mi
               cpu: 1
             requests:
-              memory: 300Mi
+              memory: 500Mi
               cpu: 500m
-          command: ["celery", "--app", "tasks.celery_worker", "worker", "--loglevel=info", "-c", "1", "-E", "-Q", "squad,celery"]
+          command: ["celery", "--app", "tasks.celery_worker", "worker", "--time-limit=7200","--loglevel=info", "-c", "1", "-E", "-Q", "squad,celery"]
