@@ -26,15 +26,15 @@ jobs:
 
     - name: Build the Docker image with tag
       working-directory: ./sld-api-backend
-      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/sld-api:2.1.4
+      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/airgapper-api:2.1.4
       
     - name: Docker Push with tag
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/sld-api:2.1.4
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/airgapper-api:2.1.4
 
     - name: Build the Docker image
       working-directory: ./sld-api-backend
-      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/sld-api:latest
+      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/airgapper-api:latest
       
     - name: Docker Push
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/sld-api:latest
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/airgapper-api:latest
 

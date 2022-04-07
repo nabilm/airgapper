@@ -17,7 +17,7 @@ spec:
       subdomain: primary
       containers:
         - name: sld-dashboard
-          image: nabilm/sld-dashboard:latest
+          image: nabilm/airgapper-dashboard:latest
           resources:
             limits:
               memory: 600Mi
