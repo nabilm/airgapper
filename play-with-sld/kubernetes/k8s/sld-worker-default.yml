@@ -17,16 +17,16 @@ spec:
       subdomain: primary
       containers:
         - name: stack-deploy-worker-default
-          image: nabilm/sld-api:latest
+          image: nabilm/sld-api:2.1.4
           imagePullPolicy: Always
           env:
           - name: TF_WARN_OUTPUT_ERRORS
             value: "1"
           resources:
             limits:
-              memory: 600Mi
+              memory: 1000Mi
               cpu: 1
             requests:
-              memory: 300Mi
+              memory: 500Mi
               cpu: 500m
-          command: ["celery", "--app", "tasks.celery_worker", "worker", "--loglevel=info", "-c", "1", "-E", "-Q", "squad,celery"]
+          command: ["celery", "--app", "tasks.celery_worker", "worker", "--time-limit=7200","--loglevel=info", "-c", "1", "-E", "-Q", "squad,celery"]
