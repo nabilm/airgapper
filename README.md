@@ -11,15 +11,15 @@
 <br />
 <p align="center">
   <a href="https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment">
-    <img src="img/logo.png" alt="Logo" width="80" height="80">
+    <img src="img/logo.png" alt="Logo">
   </a>
 
-  <h3 align="center">Stack Lifecycle Deployment</h3>
+
 
   <p align="center">
     OpenSource solution that defines and manages the complete lifecycle of resources used and provisioned into a cloud!
     <br />
-    <a href="https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/nabilm/airgapper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
@@ -54,9 +54,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About SLD
+## About Airgapper
 
-SLD helps to accelerate deployment, weighting and making IaaC reusable, generating dynamic forms and maintaining different variables in each environment with the same code. With SLD you can schedule infrastructure deployments like its destruction, manage users by roles and separate stacks by squad and environment
+Airgapper helps to accelerate deployment, weighting and making IaaC reusable, generating dynamic forms and maintaining different variables in each environment with the same code. With SLD you can schedule infrastructure deployments like its destruction, manage users by roles and separate stacks by squad and environment
 
 
 ![Product Name Screen Shot](img/dashboard.png)
@@ -75,7 +75,7 @@ Main features:
 * Task decouple and event driven pattern
 * Resilient, rollback deployment and retry if failure
 
-SLD is the easy way to use your terrafrom code!
+Airgapper is the easy way to use your infra-structure code!
 
 
 
@@ -97,11 +97,11 @@ You need docker and docker-compse or kind ( recomended ).
 
 1. Clone the SLD repo
    ```sh
-   git clone https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment.git
+   git clone https://github.com/nabilm/airgapper.git
    ```
 2. Deploy SLD in k8s with kind
    ```sh
-   cd Stack-Lifecycle-Deployment/play-with-sld/kubernetes 
+   cd airgapper/play-with-sld/kubernetes 
    sh kplay.sh start
    ```
    Result:
@@ -284,14 +284,19 @@ Contributions are what makes the open source community such an amazing place to 
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+Airgapper is based on the great work done by [diegolaflce](https://es.linkedin.com/in/diegolafalce) in [Stack Lifecycle Deployment](https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment)
+
 
 
 <!-- CONTACT -->
 ## Contact
 
-lafalce.diego@gmail.com
+[E-Mail](m.nabil.hafez@gmail.com)
 
-[Stack Lifecycle Deployment](https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment)
+[Slack](https://join.slack.com/t/airgapper/shared_invite/zt-16q8xn6s5-6pCU0bWMgGdd13EJu6lM2g)
+
+
+
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements

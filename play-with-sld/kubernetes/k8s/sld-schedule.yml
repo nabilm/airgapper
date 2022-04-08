@@ -17,7 +17,7 @@ spec:
       subdomain: primary
       containers:
         - name: schedule
-          image: nabilm/sld-schedule:latest
+          image: nabilm/airgapper-schedule:latest
           imagePullPolicy: Always
           resources:
             limits:

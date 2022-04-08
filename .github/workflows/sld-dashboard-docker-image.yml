@@ -26,15 +26,15 @@ jobs:
 
     - name: Build the Docker image with tags
       working-directory: ./sld-dashboard
-      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/sld-dashboard:2.1.1
+      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/airgapper-dashboard:2.1.1
       
     - name: Docker Push with tags
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/sld-dashboard:2.1.1
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/airgapper-dashboard:2.1.1
 
     - name: Build the Docker image
       working-directory: ./sld-dashboard
-      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/sld-dashboard:latest
+      run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_USERNAME }}/airgapper-dashboard:latest
       
     - name: Docker Push
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/sld-dashboard:latest
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/airgapper-dashboard:latest
 
