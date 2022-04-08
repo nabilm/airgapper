@@ -9,9 +9,9 @@ class Settings(BaseSettings):
     SCHEDULE_SERVER: str = os.getenv('SLD_SCHEDULE_SERVER', "http://schedule:10000")
     # API server  config
     API_V1_STR: str = "/api/v1"
-    PROJECT_NAME: str = "API Stack Lifecycle Deployment"
+    PROJECT_NAME: str = "Airgapper REST API"
     DESCRIPTION: str = '''
-    OpenSource solution that defines and manages the complete lifecycle of resources used and provisioned into a cloud
+    OpenSource Self service infrastructure portal
                     '''
     VERSION: str = "1.0.0"
     AWS_PREFIX: List = ["aws"]
