@@ -309,8 +309,8 @@ Airgapper is based on the great work done by [diegolaflce](https://es.linkedin.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/D10S0VSkY-OSS/Stack-Lifecycle-Deployment?style=for-the-badge
-[contributors-url]: https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment/graphs/contributors
+<!-- [contributors-shield]: https://img.shields.io/github/contributors/D10S0VSkY-OSS/Stack-Lifecycle-Deployment?style=for-the-badge
+[contributors-url]: https://github.com/nabilm/airgapper/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/D10S0VSkY-OSS/Stack-Lifecycle-Deployment.svg?style=for-the-badge
 [forks-url]: https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment/network/members
 [stars-shield]: https://img.shields.io/github/stars/D10S0VSkY-OSS/Stack-Lifecycle-Deployment.svg?style=for-the-badge
@@ -321,7 +321,7 @@ Airgapper is based on the great work done by [diegolaflce](https://es.linkedin.c
 [license-url]: https://github.com/D10S0VSkY-OSS/Stack-Lifecycle-Deployment/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://es.linkedin.com/in/diegolafalce
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.png -->
 
 ### Built With
 
