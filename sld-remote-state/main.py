@@ -18,7 +18,8 @@ if settings.SLD_STORE == "local":
     from stores.local import LocalStore as Store
 if settings.SLD_STORE == "mongodb":
     from stores.mongo_db import MongoDB as Store
-
+if settings.SLD_STORE == "gcs":
+    from stores.gcs_bucket import GCStore as Store
 
 
 remote_state = Store('.remote_states')
