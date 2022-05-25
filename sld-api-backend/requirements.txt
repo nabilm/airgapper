@@ -57,7 +57,7 @@ pyasn1==0.4.8
 pycparser==2.20
 pydantic==1.7.4
 pyhcl==0.4.4
-PyJWT==1.7.1
+PyJWT==2.4.0
 PyMySQL==0.10.1
 pyparsing==2.4.7
 pytest==6.2.1
